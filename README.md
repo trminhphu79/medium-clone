@@ -1,2 +1,6 @@
-# medium-clone
-Learn how to build a fullstack project from crash using techstack: FE: Angular/Ionic - Nx monorepo - BE: Typesript - ExpressJs - MongoDB - OAuth2
+# Medium-clone
+This project build for learn how to build a fullstack project from crash using techstack
+
+Frontend: Ionic/Angular, Material UI, RxJS, CkEditor
+Backend: Typescript, NodeJS, ExpressJS, GraphQL, MongoDB
+Tools: Docker, Nx - monorepo
