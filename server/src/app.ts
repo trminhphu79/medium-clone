@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/', (req: any, res: any) => {
-  res.status(404).json({ message: 'Not found' });
+  res.status(201).json({ message: 'Welcome to my serve' });
 })
 
 export default app
