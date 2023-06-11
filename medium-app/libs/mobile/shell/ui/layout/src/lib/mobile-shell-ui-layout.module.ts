@@ -1,4 +1,4 @@
-import { SharedUiNewPostActionModule } from './../../../../../../shared/ui/new-post-action/src/lib/shared-ui-new-post-action.module';
+import { SharedUiNewPostActionModule } from '../../../../../shared/ui/new-post-action/src/lib/shared-ui-new-post-action.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LayoutComponent } from './layout/layout.component';
