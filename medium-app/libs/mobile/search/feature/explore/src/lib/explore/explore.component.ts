@@ -6,4 +6,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./explore.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ExploreComponent {}
+export class ExploreComponent {
+
+  searchChange(event: string|null) {
+    console.log(event)
+  }
+}

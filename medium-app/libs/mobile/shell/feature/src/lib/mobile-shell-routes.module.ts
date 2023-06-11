@@ -7,7 +7,7 @@ export const route: Routes = [
         component: LayoutComponent,
         children: [
             {
-                path: "",
+                path: "home",
                 loadChildren: async () => (await import('libs/mobile/home/feature/src')).MobileHomeFeatureModule
             },
             {
@@ -17,6 +17,11 @@ export const route: Routes = [
             {
                 path: "search-list",
                 loadChildren: async () => (await import("libs/mobile/search/feature/list-search/src")).MobileSearchFeatureListSearchModule
+            },
+            {
+                path: '',
+                redirectTo: "home",
+                pathMatch: "full"
             }
         ]
     }
