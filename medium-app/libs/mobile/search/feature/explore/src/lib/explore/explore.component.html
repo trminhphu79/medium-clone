@@ -1,4 +1,5 @@
-<ion-header>
-    <h3>Explore</h3>
+<section class="explore-header">
+    <h4 class="title">Explore</h4>
     <medium-app-search-control (emitValue)="searchChange($event)"></medium-app-search-control>
-</ion-header>
+    <medium-app-tag [dataSource]="tags"></medium-app-tag>
+</section>

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'medium-app-explore',
@@ -8,6 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 })
 export class ExploreComponent {
 
+  tags:string[] = ["Javascript", "Angular", "Webpack", ]
   searchChange(event: string|null) {
     console.log(event)
   }

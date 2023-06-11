@@ -28,9 +28,6 @@
       "@medium-app/mobile/search/feature/list-search": [
         "libs/mobile/search/feature/list-search/src/index.ts"
       ],
-      "@medium-app/mobile/search/ui/input-search": [
-        "libs/mobile/search/ui/input-search/src/index.ts"
-      ],
       "@medium-app/mobile/search/ui/tag-search": [
         "libs/mobile/search/ui/tag-search/src/index.ts"
       ],
@@ -42,6 +39,15 @@
       ],
       "@medium-app/mobile/shell/ui/nav-bar": [
         "libs/mobile/shell/ui/nav-bar/src/index.ts"
+      ],
+      "@medium-app/shared/ui/input-search": [
+        "libs/shared/ui/input-search/src/index.ts"
+      ],
+      "@medium-app/shared/ui/new-post-action": [
+        "libs/shared/ui/new-post-action/src/index.ts"
+      ],
+      "@medium-app/shared/ui/tag-search": [
+        "libs/shared/ui/tag-search/src/index.ts"
       ]
     }
   },

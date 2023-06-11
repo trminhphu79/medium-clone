@@ -1,0 +1,7 @@
+<div class="tag-search">
+    <ng-container *ngFor="let tag of dataSource;">
+        <ion-chip [color]="color" (click)="select(tag)">
+            <ion-label>{{tag}}</ion-label>
+        </ion-chip>
+    </ng-container>
+</div>

@@ -1,0 +1,28 @@
+.input-search {
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 12px auto 0 auto;
+  border-radius: 6px;
+  border: 1px solid #f2f2f286;
+  padding: 4px 16px;
+  min-height: 36px;
+
+  ion-icon {
+    position: absolute;
+    left: 12px;
+    color: #696969;
+  }
+
+  input {
+    padding-left: 24px;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    &::placeholder {
+      opacity: 0.8;
+    }
+  }
+}

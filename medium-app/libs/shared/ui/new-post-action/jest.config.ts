@@ -1,10 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'mobile-search-ui-input-search',
-  preset: '../../../../../jest.preset.js',
+  displayName: 'shared-ui-new-post-action',
+  preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory:
-    '../../../../../coverage/libs/mobile/search/ui/input-search',
+  coverageDirectory: '../../../../coverage/libs/shared/ui/new-post-action',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
