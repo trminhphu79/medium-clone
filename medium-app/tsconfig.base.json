@@ -14,7 +14,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@medium-app/mobile/home/data-access": [
+        "libs/mobile/home/data-access/src/index.ts"
+      ],
+      "@medium-app/mobile/home/feature": [
+        "libs/mobile/home/feature/src/index.ts"
+      ],
+      "@medium-app/mobile/home/ui": ["libs/mobile/home/ui/src/index.ts"],
+      "@medium-app/mobile/shell/feature": [
+        "libs/mobile/shell/feature/src/index.ts"
+      ],
+      "@medium-app/mobile/shell/ui/layout": [
+        "libs/mobile/shell/ui/layout/src/index.ts"
+      ],
+      "@medium-app/mobile/shell/ui/nav-bar": [
+        "libs/mobile/shell/ui/nav-bar/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -14,6 +14,7 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "~16.0.0",
     "@angular/language-service": "~16.0.0",
+    "@ionic/angular-toolkit": "^9.0.0",
     "@nrwl/angular": "^16.3.2",
     "@nx/cypress": "16.3.2",
     "@nx/eslint-plugin": "16.3.2",
@@ -50,6 +51,7 @@
     "@angular/platform-browser": "~16.0.0",
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
+    "@ionic/angular": "^7.0.12",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
