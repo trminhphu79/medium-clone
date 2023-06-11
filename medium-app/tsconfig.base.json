@@ -22,6 +22,18 @@
         "libs/mobile/home/feature/src/index.ts"
       ],
       "@medium-app/mobile/home/ui": ["libs/mobile/home/ui/src/index.ts"],
+      "@medium-app/mobile/search/feature/explore": [
+        "libs/mobile/search/feature/explore/src/index.ts"
+      ],
+      "@medium-app/mobile/search/feature/list-search": [
+        "libs/mobile/search/feature/list-search/src/index.ts"
+      ],
+      "@medium-app/mobile/search/ui/input-search": [
+        "libs/mobile/search/ui/input-search/src/index.ts"
+      ],
+      "@medium-app/mobile/search/ui/tag-search": [
+        "libs/mobile/search/ui/tag-search/src/index.ts"
+      ],
       "@medium-app/mobile/shell/feature": [
         "libs/mobile/shell/feature/src/index.ts"
       ],

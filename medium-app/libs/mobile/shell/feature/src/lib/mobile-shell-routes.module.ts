@@ -9,6 +9,14 @@ export const route: Routes = [
             {
                 path: "",
                 loadChildren: async () => (await import('libs/mobile/home/feature/src')).MobileHomeFeatureModule
+            },
+            {
+                path: "search",
+                loadChildren: async () => (await import("libs/mobile/search/feature/explore/src")).MobileSearchFeatureExploreModule
+            },
+            {
+                path: "search-list",
+                loadChildren: async () => (await import("libs/mobile/search/feature/list-search/src")).MobileSearchFeatureListSearchModule
             }
         ]
     }
